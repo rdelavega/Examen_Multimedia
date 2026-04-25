@@ -45,12 +45,12 @@ public class                  Ball {
     public void increaseSpeed() {
 
         if(xSpeed > 0)
-            xSpeed++;
+            xSpeed += 3;
         else
             xSpeed--;
 
         if(ySpeed > 0)
-            ySpeed++;
+            ySpeed += 3;
         else
             ySpeed--;
     }
